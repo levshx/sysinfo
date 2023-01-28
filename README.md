@@ -28,12 +28,12 @@ echo "getMachineManufacturer: ", getMachineManufacturer()
 echo "getOsName: ", getOsName()
 echo "getOsVersion: ", getOsVersion()
 echo "getCpuName: ", getCpuName()
-echo "getCpuGhz: ", getCpuGhz(), "GHz"
+echo "getCpuGhz: ", getCpuGhz(), " GHz"
 echo "getCpuManufacturer: ", getCpuManufacturer()
 echo "getNumCpus: ", getNumCpus()
 echo "getNumTotalCores: ", getNumTotalCores()
-echo "getTotalMemory: ", getTotalMemory().float / 1024 / 1024 / 1024, "GB"
-echo "getFreeMemory: ", getFreeMemory().float / 1024 / 1024 / 1024, "GB"
+echo "getTotalMemory: ", getTotalMemory().float / 1024 / 1024 / 1024, " GB"
+echo "getFreeMemory: ", getFreeMemory().float / 1024 / 1024 / 1024, " GB"
 echo "getGpuName: ", getGPUName()
 echo "getGpuDriverVersion: ", getGpuDriverVersion()
 echo "getGpuMaxFPS: ", getGpuMaxFPS()
@@ -46,12 +46,12 @@ getMachineManufacturer: Gigabyte Technology Co., Ltd.
 getOsName: Microsoft Windows 10 Pro
 getOsVersion: 10.0.15063
 getCpuName: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
-getCpuGhz: 4.001GHz
+getCpuGhz: 4.001 GHz
 getCpuManufacturer: GenuineIntel
 getNumCpus: 1
 getNumTotalCores: 8
 getTotalMemory: 15.96039962768555GB
-getFreeMemory: 0.008630607277154923GB
+getFreeMemory: 9.169921875 GB
 getGpuName: NVIDIA GeForce GTX 1080
 getGpuDriverVersion: 25.21.14.1771
 getGpuMaxFPS: 143
